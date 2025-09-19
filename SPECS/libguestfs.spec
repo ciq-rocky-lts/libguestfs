@@ -32,7 +32,7 @@ Summary:              Access and modify virtual machine disk images
 Name:                 libguestfs
 Epoch:                1
 Version:              1.44.0
-Release:              9%{?dist}.rocky
+Release:              9%{?dist}.rocky.rocky
 License:              LGPLv2+
 
 ExclusiveArch:        x86_64 %{power64} aarch64 s390x
@@ -1195,7 +1195,10 @@ rm ocaml/html/.gitignore
 
 
 %changelog
-* Tue May 16 2023 Release Engineering <releng@rockylinux.org> - 1.44.0-9.rocky
+* Mon Jul 08 2024 Release Engineering <releng@rockylinux.org> - 1.44.0-9.rocky
+- Add ROCKY to list of REDHAT distros
+
+* Tue May 02 2023 Release Engineering <releng@rockylinux.org> - 1.44.0.rocky
 - Add ROCKY to list of REDHAT distros
 
 * Tue Jul 05 2022 Richard W.M. Jones <rjones@redhat.com> - 1:1.44.0-9
